@@ -63,7 +63,7 @@ do
             echo "alias cd=\"sh -c 'eject &' && `which cd`\"" >> ~/.bashrc
             ;;
         8) # Open beepdog daily
-            crontab -l | sed "\$a\@daily nohup www-browser 'https://www.youtube.com/watch?v=JWOY6uu3VUo' >> /dev/null &" | crontab -
+            crontab -l | sed "\$a\@daily nohup www-browser 'https://www.youtube.com/watch?v=FzG4uDgje3M' >> /dev/null &" | crontab -
             ;;
         9) # Emulate DOS-prompt
             echo "export PS1='C:\${PWD//\//\\\\\\\\\\}> '" >> ~/.bashrc
